@@ -2,6 +2,37 @@
 <html>
   <head>
     <title>Contact Us</title>
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+      *{
+            font-family: 'Roboto Slab', serif;
+        }
+        label{
+          color: cadetblue;
+          font-size: x-large;
+        }
+        input{
+          width: 400px;
+          height: 20px;
+          border: 1px solid burlywood;
+          color: aqua;
+        }
+        input[type="text"]{
+          text-transform: capitalize;
+          color: brown;
+
+        }
+        #submit:hover{
+          background-color: green;
+        }
+        button[type="reset"]:hover
+      {
+        color: brown;
+      }
+    </style>
   </head>
   <body>
     <h2>Contact Us</h2>
@@ -29,7 +60,7 @@
         <td><label for="">Enquiry:</label></td>
         <td><textarea name="" id="" cols="40" rows="5"></textarea></td>
       </tr>
-      <tr><td><button type="submit">Submit</button></td>
+      <tr><td><button id="submit" type="submit">Submit</button></td>
         <td><button type="reset">Clear</button></td></tr>
     </table>
 </form>

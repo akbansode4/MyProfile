@@ -2,7 +2,28 @@
 <html>
 <head>
     <title>Home</title>
+    <!-- CDN Link For Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+    <style>
+        span{
+            color: rgb(247, 6, 6);
+            background-color: aqua;
+            margin-right: 20px;
+            font-family: 'Sriracha', cursive;
+        }
+        #logo{
+            margin-right: 20px;
+        }
+        a{
+            text-transform: uppercase;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,21 +36,21 @@
     </header>
     <br>
     <nav>
-        <a href="home.html" target="frame">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="frame">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="personal.html" target="frame">PERSONAL</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="contactUs.html" target="frame">CONTACT ME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="home.html" target="frame">HOME</a>
+        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a>
+        <a href="education.html" target="frame">EDUCATION</a>
+        <a href="personal.html" target="frame">Personal</a>
+        <a href="contactUs.html" target="frame">CONTACT ME</a>
     </nav>
 
     <iframe width="800px" height="550px" name="frame"></iframe>
     <br>
     <footer>
     <span>Follow me on:</span>
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;    
-    <i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+    <i id="logo" class="fa fa-linkedin-square" aria-hidden="true"></i>
+    <i id="logo" class="fa fa-google" aria-hidden="true"></i>
+    <i id="logo" class="fa fa-instagram" aria-hidden="true"></i>
+    <i id="logo" class="fa fa-facebook-official" aria-hidden="true"></i>
     </footer>
     
 </body>
